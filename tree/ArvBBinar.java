@@ -47,8 +47,8 @@ public class ArvBBinar {
 
             // inserir o caminho da pasta que contem os arquivos de entrada
             //String dirPastaEntradas = "C:\\Users\\";
-            String dirPastaEntradas = "./entradas";
-            String dirPastaEntradas2 = "./verificar";
+            String dirPastaEntradas = "./entradas_";
+            String dirPastaEntradas2 = "./verificar_Ini";
 
             BufferedWriter log = escritor(dirArqLog);
             BufferedWriter tempo = escritor(dirArqTempo);
@@ -72,7 +72,7 @@ public class ArvBBinar {
             log.write("Processando Arquivos: ");
             log.newLine();
 
-            for (int i = 0; i < contents.length; i++) { // para percorrer os arquivos da pasta de entrada (tarefas)
+            for (int i = 0; i < contents2.length; i++) { // para percorrer os arquivos da pasta de entrada (tarefas)
 
                 System.out.println("Processando Arquivo: " + contents[i]);
                 System.out.println("Processando Arquivo: " + contents2[i]);
