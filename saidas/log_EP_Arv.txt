@@ -1,0 +1,14 @@
+Processando Arquivos: 
+tarefas6000.txt , verificar6000.txt
+tarefas8000.txt , verificar8000.txt
+tarefas4000.txt , verificar4000.txt
+tarefas2000.txt , verificar2000.txt
+tarefas7000.txt , verificar7000.txt
+tarefas9000.txt , verificar9000.txt
+tarefas5000.txt , verificar5000.txt
+tarefas1000.txt , verificar1000.txt
+tarefas3000.txt , verificar3000.txt
+
+
+Lista de Saída de Ambas (elementos em comum): 
+Número de tarefas da lista: 7024
