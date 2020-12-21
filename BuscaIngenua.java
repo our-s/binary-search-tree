@@ -97,13 +97,14 @@ public class BuscaIngenua {
             BuscaIngenua lista2 = new BuscaIngenua(); // de verificar
             ArrayList<String> listaComum = new ArrayList(); // elementos em comum
 
+            log.write("Processando Arquivos: ");
+            log.newLine();
+
             for (int i = 0; i < contents.length; i++) { // para percorrer os arquivos da pasta
 
                 System.out.println("Processando Arquivo: " + contents[i]);
                 System.out.println("Processando Arquivo: " + contents2[i]);
-                log.write("Processando Arquivos: " + contents[i]);
-                log.newLine();
-                log.write("Processando Arquivos: " + contents2[i]);
+                log.write(contents[i] + " , " + contents2[i]);
 
                 leitor = leitor(dirPastaEntradas + "/" + contents[i]);
                 str = leitor.readLine();
@@ -164,6 +165,7 @@ public class BuscaIngenua {
             listaComum.addAll(set);
 
             // imprime somente no final tudo
+            log.newLine();
             log.write("\n\nLista de Saída de Ambas (elementos em comum): \nNúmero de tarefas da lista: " + listaComum.size());
             log.write("\nTarefas: " + listaComum.toString());
             log.newLine();
